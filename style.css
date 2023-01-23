@@ -1,0 +1,58 @@
+body{
+    margin-left: 0px;
+    margin-right:0px;
+}
+#header{
+    text-align:center;
+}
+#tit{
+    font-family: 'Knewave', cursive;
+    font-size: 38px;
+    display: inline;
+}
+#en{
+    color: orange;
+}
+#hi{
+    color:green;
+}
+#Art{
+    font-family: sans-serif;
+    border:5px solid black;
+}
+#content{
+    background-color: rgba(255, 215, 0, 0.87);
+    padding: 1px;
+    padding-left: 8px;
+    padding-right:8px;
+}
+#sugg{
+    background-color: rgb(255, 165, 0);
+    padding: 2px;
+    padding-left: 5px;
+    padding-right:5px;
+    text-align:calc(left + 50px)
+}
+#poll{
+    background-color: cadetblue;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right:5px;
+}
+#Art{
+    height:50vh;
+    min-height: 100vh;
+    background:url(./bg.png);
+    background-attachment: fixed;
+}
+.ext{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    background-color: aliceblue;
+    background-attachment: fixed;
+    background:radial-gradient(red, green, blue, yellow);
+}
+/*rgba(10,200,200,0.56)*/
